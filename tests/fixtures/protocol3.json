@@ -1,0 +1,187 @@
+{
+  "welcome": {
+    "type": "welcome",
+    "bot_id": "b_1",
+    "ship_id": "s_1",
+    "map": {
+      "width": 700,
+      "height": 700
+    },
+    "tick_hz": 10,
+    "ship_specs": {
+      "max_forward_speed": 9.0,
+      "max_reverse_speed": 2.0,
+      "acceleration": 3.5,
+      "turn_rate_deg_per_s": 20.0,
+      "hull_hp": 100,
+      "max_ammo": 250,
+      "gun_cooldown_ticks": 15,
+      "hit_radius": 8.0,
+      "shell_speed": 70.0,
+      "max_shell_range": 300.0,
+      "splash_radius": 15.0,
+      "max_splash_damage": 25
+    },
+    "protocol_version": "3.0",
+    "simulation_dt": 0.1,
+    "config_hash": "fixture-config-1",
+    "configuration": {
+      "protocol_version": "3.0",
+      "revision": 1,
+      "simulation_dt": 0.1,
+      "tick_hz": 10,
+      "deadline_ms": 80,
+      "map": {
+        "width": 700,
+        "height": 700
+      },
+      "ship_specs": {
+        "max_forward_speed": 9.0,
+        "max_reverse_speed": 2.0,
+        "acceleration": 3.5,
+        "turn_rate_deg_per_s": 20.0,
+        "hull_hp": 100,
+        "max_ammo": 250,
+        "gun_cooldown_ticks": 15,
+        "hit_radius": 8.0,
+        "shell_speed": 70.0,
+        "max_shell_range": 300.0,
+        "splash_radius": 15.0,
+        "max_splash_damage": 25
+      },
+      "available_powerups": [
+        "overdrive",
+        "reinforced_hull",
+        "repair_drones",
+        "smoke_screen",
+        "rapid_fire",
+        "heavy_shell",
+        "long_range_salvo",
+        "awacs_scan",
+        "silent_running",
+        "counter_battery_trace",
+        "emp_burst",
+        "decoy_flare"
+      ],
+      "match_timeout_ticks": 3000,
+      "sim_config": {
+        "max_forward_speed": 9.0,
+        "max_reverse_speed": 2.0,
+        "acceleration": 3.5,
+        "turn_rate_deg_per_s": 20.0,
+        "hull_hp": 100,
+        "max_ammo": 250,
+        "gun_cooldown_ticks": 15,
+        "hit_radius": 8.0,
+        "shell_speed": 70.0,
+        "max_shell_range": 300.0,
+        "splash_radius": 15.0,
+        "max_splash_damage": 25,
+        "powerups": {
+          "overdrive_duration_ticks": 50,
+          "overdrive_speed_mult": 1.6,
+          "overdrive_accel_mult": 1.6,
+          "overdrive_turn_mult": 1.5,
+          "reinforced_hull_duration_ticks": 70,
+          "reinforced_hull_damage_mult": 0.45,
+          "repair_drones_duration_ticks": 50,
+          "repair_drones_hp_per_tick": 1,
+          "repair_drones_instant_hp": 20,
+          "smoke_screen_duration_ticks": 80,
+          "smoke_screen_radius": 70.0,
+          "rapid_fire_duration_ticks": 50,
+          "rapid_fire_cooldown_mult": 0.5,
+          "heavy_shell_duration_ticks": 30,
+          "heavy_shell_splash_mult": 1.5,
+          "heavy_shell_damage_mult": 1.3,
+          "long_range_duration_ticks": 40,
+          "long_range_range_mult": 1.5,
+          "long_range_speed_mult": 1.6,
+          "awacs_duration_ticks": 60,
+          "awacs_range_mult": 2.0,
+          "awacs_silent_jitter": 15.0,
+          "awacs_silent_confidence": 0.6,
+          "silent_running_duration_ticks": 80,
+          "silent_running_active_range_mult": 0.5,
+          "counter_battery_arm_ticks": 60,
+          "counter_battery_reveal_ticks": 15,
+          "emp_burst_duration_ticks": 40,
+          "emp_burst_radius": 130.0,
+          "emp_gun_cooldown_mult": 2.0,
+          "decoy_flare_duration_ticks": 60,
+          "decoy_flare_distance_min": 80.0,
+          "decoy_flare_distance_max": 140.0
+        }
+      },
+      "capabilities": {
+        "empty_loadout": true,
+        "own_ship_telemetry": true
+      }
+    },
+    "available_powerups": [
+      "overdrive",
+      "reinforced_hull",
+      "repair_drones",
+      "smoke_screen",
+      "rapid_fire",
+      "heavy_shell",
+      "long_range_salvo",
+      "awacs_scan",
+      "silent_running",
+      "counter_battery_trace",
+      "emp_burst",
+      "decoy_flare"
+    ]
+  },
+  "game_start": {
+    "type": "game_start",
+    "tick": 0,
+    "starting_position": [
+      500.0,
+      500.0
+    ],
+    "starting_heading_deg": 0.0,
+    "match_id": "fixture-match-1",
+    "simulation_dt": 0.1,
+    "ship_specs": {
+      "max_forward_speed": 9.0,
+      "max_reverse_speed": 2.0,
+      "acceleration": 3.5,
+      "turn_rate_deg_per_s": 20.0,
+      "hull_hp": 100,
+      "max_ammo": 250,
+      "gun_cooldown_ticks": 15,
+      "hit_radius": 8.0,
+      "shell_speed": 70.0,
+      "max_shell_range": 300.0,
+      "splash_radius": 15.0,
+      "max_splash_damage": 25
+    }
+  },
+  "tick": {
+    "type": "tick",
+    "tick": 1,
+    "deadline_ms": 80,
+    "self": {
+      "pos": [
+        500.0,
+        500.0
+      ],
+      "heading_deg": 0.0,
+      "speed": 0.0,
+      "hp": 100,
+      "ammo": 20,
+      "rudder": 0.0,
+      "throttle": 0.0
+    },
+    "contacts": [],
+    "events": [],
+    "match_id": "fixture-match-1"
+  },
+  "game_over": {
+    "type": "game_over",
+    "winner": "b_2",
+    "final_tick": 142,
+    "replay_id": "match_test"
+  }
+}

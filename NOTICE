@@ -1,0 +1,10 @@
+This project ports the MIT-licensed battle-sim Python SDK:
+https://github.com/wilfredluijk/battle-sim-python-sdk
+Reference commit: 816fa9baba75c7294561a6f111aa2735f4bbdd01
+
+Copyright (c) 2026 battle-sim contributors.
+The original MIT license is retained in LICENSE.
+
+The protocol fixture and behavioral reference data derive from that SDK.
+Boost, OpenSSL, and nlohmann/json are external dependencies and retain their
+respective licenses. They are not vendored in this repository.
