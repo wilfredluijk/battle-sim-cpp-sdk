@@ -62,7 +62,9 @@ int main() {
 
 Set `BATTLE_SERVER_URL` and `BATTLE_BOT_TOKEN` to the endpoint and participant
 credential provided by your operator. The default endpoint is
-`ws://localhost:7878/bot`. The examples also accept a participant environment file:
+`ws://localhost:7878/bot`. For the hosted workshop server, use
+`wss://93.190.187.250/bot` with your assigned participant token. The examples also
+accept a participant environment file:
 
 ```sh
 ./build/my_bot --env-file /path/to/participant.env --name my-cpp-bot

@@ -26,6 +26,8 @@ Do not access mutable bot state from another thread during a run.
 | `ca_file` | Additional PEM CA certificates; hostname and certificate checks always remain enabled |
 
 URLs must use `ws` or `wss`, with no user information, query, fragment, or whitespace.
+The hosted workshop server is `wss://93.190.187.250/bot` and requires the participant
+token assigned by the operator.
 The managed transport limits incoming messages to 1 MiB and handles WebSocket
 ping/pong, fragmentation, and close frames through Boost.Beast. DNS cancellation
 ultimately depends on the platform resolver. The SDK does not provide a forced
